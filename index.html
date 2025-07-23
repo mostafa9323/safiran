@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> سفیران سلامت | آموزش تخصصی برای آینده</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      
+
+      /* ریسپانسیو */
+
+      @media (max-width: 1024px) {
+        header h1 {
+          font-size: 2.8rem;
+        }
+        .hero-content h2 {
+          font-size: 2.3rem;
+        }
+        .courses h3 {
+          font-size: 2.2rem;
+        }
+        .course-card h4 {
+          font-size: 1.6rem;
+        }
+        .course-card p,
+        .about-section p {
+          font-size: 1rem;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .hero {
+          flex-direction: column;
+          padding: 3rem 1.5rem;
+        }
+        .hero-content,
+        .hero img {
+          flex: 1 1 100%;
+          max-width: 100%;
+        }
+        header {
+          padding: 3.5rem 1.5rem 3rem;
+        }
+        nav ul {
+          width: 220px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 2rem;
+        }
+        header p {
+          font-size: 1rem;
+        }
+        .hero-content h2 {
+          font-size: 1.8rem;
+        }
+        .hero-content p {
+          font-size: 1rem;
+        }
+        .course-card {
+          padding: 2rem 1.5rem;
+        }
+        .course-card h4 {
+          font-size: 1.3rem;
+        }
+        .course-card p {
+          font-size: 0.9rem;
+        }
+        footer p {
+          font-size: 0.9rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>سفیران سلامت</h2>
+      <div
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="باز کردن منو"
+        role="button"
+        tabindex="0"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul id="menu">
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="courses.html">دوره‌ها</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+        <li><a href="contact.html">تماس</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>سفیران سلامت </h1>
+      <p>
+        دوره‌های تخصصی برای مدیران و فنی‌کاران آینده، با طراحی مدرن و کاربردی
+      </p>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h2>آینده‌ات رو حرفه‌ای بساز</h2>
+        <p>
+          ما اینجاییم تا بهت کمک کنیم حرفه‌ای‌ترین نسخه از خودت باشی؛ همین امروز
+          مسیرتو شروع کن.
+        </p>
+        <!-- در بخش هیرو -->
+<button onclick="window.location.href='courses.html'">مشاهده دوره‌ها</button>
+       
+      </div>
+      <img src="چاپ-استند.webp" alt="دوره‌ها" />
+    </section>
+
+    <section id="courses" class="courses">
+      <h3>دوره‌های ویژه</h3>
+      <div class="course-list">
+        <div class="course-card">
+          <h4>دوره مدیر فنی</h4>
+          <p>
+            یاد گیری کامل از 0 تا صد مدیر فنی تا گرفتن مدرک
+
+          </p>
+          <p class="price">1,200,000 تومان</p>
+         <button onclick="window.location.href='course-details.html?course=مدیر-فنی'">ثبت‌نام</button>
+        </div>
+        <div class="course-card">
+          <h4>دوره هوشمند بار</h4>
+          <p>
+            یاد گیری تمام چیز های لازم برای دریافت مدرک هوشمند بار
+            
+
+          </p>
+          <p class="price">850,000 تومان</p>
+          <button onclick="window.location.href='course-details.html?course=مدیر-فنی'">ثبت‌نام</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h3>چرا سفیران سلامت؟</h3>
+      <p>
+        ما در سفیران سلامت با تکیه بر تجربه‌های واقعی ، آموزش‌هایی طراحی
+        کردیم که دقیقاً همون چیزیه که لازم داری . نه فقط تئوری، بلکه
+        مهارت عملی، ن یاد می‌گیری.
+      </p>
+    </section>
+
+    <footer>
+      <footer>
+        <div class="footer-container">
+          <div class="footer-column about">
+            <h4>سفیران سلامت </h4>
+            <p>
+              آکادمی تخصصی برای مدیران و فنی‌کاران آینده با آموزش‌های کاربردی و
+              پروژه‌محور.
+            </p>
+          </div>
+          <div class="footer-column links">
+            <h4>لینک‌های سریع</h4>
+            <ul>
+              <li><a href="index.html">خانه</a></li>
+              <li><a href="courses.html">دوره‌ها</a></li>
+              <li><a href="about.html">درباره ما</a></li>
+              <li><a href=contact.html">تماس با ما</a></li>
+            </ul>
+          </div>
+          <div class="footer-column contact">
+            <h4>تماس با ما</h4>
+            <p>ایمیل: info@blueacademy.ir</p>
+            <p>تلفن: ۰۵۱-۳۷۲۱۱۲۲۳</p>
+            <p>آدرس: مشهد:بلوار شاهنامه روستای محمد اباد</p>
+          </div>
+          <div class="footer-column social">
+            <h4>ما را دنبال کنید</h4>
+            <div class="social-icons">
+              <a href="#" aria-label="اینستاگرام"
+                ><svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.75 2.75a1 1 0 110 2 1 1 0 010-2zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="تلگرام"
+                ><svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M22 4.01L2 10.5l5.8 1.7L18 6.5 9 16.5l-.3 4 4-2 4.3 3 1.7-18z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="لینکدین"
+                ><svg
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path
+                    d="M4 4h4v16H4zm6 0h4v2.5a5 5 0 015 5v8.5h-4v-8a1.5 1.5 0 00-1.5-1.5 1.5 1.5 0 00-1.5 1.5v8h-4z"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>طراحی شده توسط mostafa</p>
+        </div>
+      </footer>
+    </footer>
+
+    <script>
+      // منوی موبایل باز/بسته شدن
+      const menuToggle = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+
+      menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+
+      // دسترسی با کیبورد (اینتر)
+      menuToggle.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          menu.classList.toggle("active");
+        }
+      });
+    </script>
+  </body>
+</html>
